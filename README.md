@@ -97,7 +97,7 @@ This dataset contains **20,765 entries and 22 features**, including:
 
 ---
 
-##🔮 Future Work
+🔮 Future Work
 -🤖 Apply machine learning to predict optimal pricing
 
 -💬 Use sentiment analysis on reviews for deeper guest feedback
