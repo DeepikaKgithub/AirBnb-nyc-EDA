@@ -35,34 +35,34 @@ This dataset contains **20,765 entries and 22 features**, including:
 ## 🔁 Steps & Workflow
 
 ### 🧹 1. Data Cleaning
-- 🧼 Handled null values in `price`, `neighborhood`, and `beds`  
-- 🕓 Converted `last_review` to **datetime format**  
-- 🚫 Removed extreme outliers (e.g., prices > $1,000)
+🧼 Handled null values in `price`, `neighborhood`, and `beds`  
+🕓 Converted `last_review` to **datetime format**  
+🚫 Removed extreme outliers (e.g., prices > $1,000)
 
 ### 📊 2. Exploratory Data Analysis
-- 🛌 **Room Type Distribution**: Bar plots show majority listings are **Entire homes/apartments**
-- 🏙️ **Neighborhood Insights**:  
+🛌 **Room Type Distribution**: Bar plots show majority listings are **Entire homes/apartments**
+🏙️ **Neighborhood Insights**:  
   - Manhattan = 💸 most expensive  
   - Brooklyn = more budget options  
-- 📅 **Availability Trends**: Correlation heatmap shows relationship between `availability`, `price`, and `reviews`
-- 💲 **Price Distribution**: Histogram shows most listings priced between **$50 - $300**
-- 📦 **Host Listings**: Boxplots reveal professional hosts with multiple listings
-- 💬 **Review Behavior**: Pair plots show how reviews relate to price and availability
+📅 **Availability Trends**: Correlation heatmap shows relationship between `availability`, `price`, and `reviews`
+💲 **Price Distribution**: Histogram shows most listings priced between **$50 - $300**
+📦 **Host Listings**: Boxplots reveal professional hosts with multiple listings
+💬 **Review Behavior**: Pair plots show how reviews relate to price and availability
 
 ### 🧮 3. Data Visualization
-- 🔥 Pairplot — price vs reviews & availability  
-- 🌡️ Heatmap — correlation among numerical features  
-- 📉 Boxplots & Histograms — outlier detection in `price`  
-- 📊 Bar Charts — room type and borough distributions
+🔥 Pairplot — price vs reviews & availability  
+🌡️ Heatmap — correlation among numerical features  
+📉 Boxplots & Histograms — outlier detection in `price`  
+📊 Bar Charts — room type and borough distributions
 
 ---
 
 ## 📌 Key Findings
-- 💰 **Manhattan** has the highest average listing prices  
-- 🛏️ **Entire homes/apartments** dominate listings  
-- ⚠️ Price outliers (e.g., $10,000+) exist and skew averages  
-- 📆 Highly available listings get more reviews and lower pricing  
-- 🧑‍💼 Some hosts operate **multiple listings**, showing professional hosting trends
+💰 **Manhattan** has the highest average listing prices  
+🛏️ **Entire homes/apartments** dominate listings  
+⚠️ Price outliers (e.g., $10,000+) exist and skew averages  
+📆 Highly available listings get more reviews and lower pricing  
+🧑‍💼 Some hosts operate **multiple listings**, showing professional hosting trends
 
 ---
 
