@@ -45,8 +45,11 @@ This dataset contains **20,765 entries and 22 features**, including:
   - Manhattan = 💸 most expensive  
   - Brooklyn = more budget options  
 📅 **Availability Trends**: Correlation heatmap shows relationship between `availability`, `price`, and `reviews`
+
 💲 **Price Distribution**: Histogram shows most listings priced between **$50 - $300**
+
 📦 **Host Listings**: Boxplots reveal professional hosts with multiple listings
+
 💬 **Review Behavior**: Pair plots show how reviews relate to price and availability
 
 ### 🧮 3. Data Visualization
